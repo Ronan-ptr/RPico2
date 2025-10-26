@@ -3,7 +3,7 @@ from machine import Pin, Timer #Vas dans le module "machine" et importe les clas
 ## CREATION DES OBJETS
 
 # LED : Pin25 = led rpico
-led = Pin(25, Pin.OUT) # Affecte Pin n°25, mode sortie, a variable "led"
+led = Pin(15, Pin.OUT) # Affecte Pin n°25, mode sortie, a variable "led"
 #led.value(1) # LED = on
 #led.value(0) # LED = off
 #led.toggle() # LED = change etat
